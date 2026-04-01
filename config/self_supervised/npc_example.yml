@@ -2,8 +2,8 @@ data:
   # Dataset-related setting
   dataset:
     name: 'LibriSpeech'    # Specify dataset, must match to dataset/<corpus>.py
-    path: '/path/to/LibriSpeech'         # Path to unzipped LibriSpeech dataset
-    train_split: ['train-clean-360']        # Splits to be used as training set
+    path: '/home/yousp08/datasets/LibriSpeech/LibriSpeech'         # Path to unzipped LibriSpeech dataset
+    train_split: ['train-clean-100']        # Splits to be used as training set
     dev_split: ['dev-clean']                # Splits to be used as valid.   set
     batch_size: 32                                                # Batch sizes
     audio_max_frames: 1500     # Max length of spectrogram to ensure batch size
