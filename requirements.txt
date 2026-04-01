@@ -4,4 +4,4 @@ scipy
 pyyaml
 pandas
 torchaudio
-tensorboard
+tensorboard 
